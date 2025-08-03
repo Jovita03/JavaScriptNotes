@@ -45,18 +45,26 @@ console.log (a)
 
 console.log (a != b) //desigualdad
 
-//trthy values
+//trthy values (valores verdaderos)
+//todos los numeros positivos y negativos menos el 0
+//las cadenas de texto no vacias
+//todos los boleanos true
 
+// opñeradores logicos para compara valores, compárar valor boleano
 
 //and &&
+console.log(5 > 10 && 15>20) //todo verdadero = verdader
+console.log(5 < 10 && 15<20) // todo falso = falso
+console.log(5 < 10 && 15>20) //verdadero y falso = falso
 
-
-
-//or ||
-
+//or 
+console.log(5 > 10 	|| 15>20)
+console.log(5 < 10 	|| 15<20) //todo verdadero = verdadero
+console.log(5 < 10 	|| 15>20)// Ssolo se necesita un verdadero para que sea verdadero
 
 //not !
-
+onsole.log(!(5 > 10 && 15>20))
+console.log(!(5 < 10 || 15<20)) //todo verdadero = falso
 //operadores ternarios 
 const isRaining = false
 
