@@ -1,9 +1,9 @@
 //strings
-let myNane = "Jess" //string
-let gretting = "Hola, " + myNane  + "!" //concatenar
+let myName = "Jess" //string
+let gretting = "Hola, " + myName  + "!" //concatenar
 console.log(gretting) // Imprime el saludo
 
-console.log(typeof myNane) 
+console.log(typeof myName) 
 
 //lobgitud
 console.log(gretting.length) // imprime la longitud del string
@@ -23,3 +23,12 @@ console.log(gretting.slice(0, 7)) // Extrae una parte del string desde el índic
 console.log(gretting.replace("Hola","Que onda "))
 
 //template literals
+let message = `Hola, este es 
+un mensaje de 
+prueba`
+ 
+console.log(message)
+console.log(`Hola, ${myName}!`)
+
+let email ="jess@gmail.com"
+console.log(`Hola, ${myName}! tu email es ${email}`)
